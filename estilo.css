@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    /* background-color: rgb(148, 148, 148); */
+    margin: 100px auto;
+    padding: 10px 0;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    padding: 20px;
+    font-size: 40px;
+    margin-right: auto;
+}
+
+.contenido{
+    padding: 20px;
+    background-color: aqua;
+    
+}
+
+.contenido input{
+    
+    border: 2px solid black;
+    width: 300px;
+    padding: 5px;
+}
+.contenido button{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(49, 219, 49);
+}
+
+.lista ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 14px;
+    font-size: 16px;
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+ul li:hover{
+    background-color: black;
+}
+.checked{
+    text-decoration: line-through;
+    color: red;
+
+}
