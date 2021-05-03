@@ -21,6 +21,7 @@ nuevo.addEventListener('click',function(){
     };
 });
 
+
 divUl.addEventListener('click',function(evento){
     if(evento.target.tagName == 'LI'){
         evento.target.classList.toggle('checked');
